@@ -1,0 +1,275 @@
+html  {
+    background-color: #28292c;
+}
+
+body {
+    font-family: Century Gothic, sans-serif;
+    flex-direction: row;
+    display: flex;
+    color: black;
+    min-height: 100vh;
+}
+
+.tete {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #5a5f67;
+    border: solid;
+    border-radius: 5px;
+    border-color: #36393E;
+}
+
+.menu {
+    display: flex;  
+    padding: 0px;                  
+    margin: 5px;
+}
+.menu li {
+    list-style-type: none ;
+
+}
+.menu a {
+    display:block;                
+    min-width:200px;                
+    padding: 10px;            
+    text-align: center;          
+    background-color: #36393E;    
+    color: #fff;                  
+    text-decoration: none;       
+    border: 2px solid #36393E;           
+}
+
+.menu a:hover{
+    background-color: #848992;
+    color:#36393E;
+}
+
+header {
+    display: flex;
+    flex : 1;
+}
+
+.nom {
+    margin-left: 50px;
+    width: 10px;
+    display: flex;
+    flex: 1;
+}
+.barre {
+    display: flex;
+    flex: 3;
+}
+.vide {
+    display: flex;
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+h1 {
+    color: #c9b0d1;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px #444444, 0 0 1em #555555, 0 0 0.2em #aaaaaa;
+}
+
+
+a {
+    color: #b0b3d1;
+    text-decoration: none;
+}
+.centre {
+    flex-direction: row;
+    display: column;
+    flex: 2;
+}
+
+
+.cadre{
+    background-color: #c5c5c5;
+    border:solid;
+    border-color: #36393E;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 20px;
+    /*line-height: 30px;*/
+}
+/*
+input[type=search]{
+    background-color:aliceblue;
+    border-radius:8px;
+    margin-right: 5px;
+}*/
+
+
+/*
+.inner-row1 {
+    flex-direction: row;
+    display: flex;
+    flex: 3;
+}
+.inner-row2 {
+    flex-direction: row;
+    display: flex;
+    flex: 1;
+}*/
+
+/*
+article {
+    display: block;
+    flex-direction: row;
+    flex: 4;
+    background-color: #eeeeee;
+    background-image: url("chien_bronzette.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border:solid;
+    border-color: #36393E;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 20px;
+    line-height: 30px;
+}*/
+/*
+.Description article{
+    line-height: 25px;
+}*/
+
+
+/*
+img {
+    width: 1275px;
+   margin :5px;
+}*/
+/*
+aside div {
+    display: inline-block;
+}*/
+/*
+.toto {
+    display: flex;
+    flex-direction: row;
+    flex: 5;
+    align-items: center;
+}*/
+
+button {
+    display: inline;
+    background-color: rgb(241, 241, 241);
+    border-radius: 7px;
+    transition: 0.5s;
+    position: relative;
+    left: 20px;
+    padding:  10px;
+}
+
+.button>button {
+    font-weight: bolder;
+    font-family: Century Gothic, sans-serif;
+    font-size: 13px;
+    width: 200px;
+    height: 50px;
+    justify-content: space-around;
+}
+
+button:hover {
+    font-weight: bolder;
+    font-size: 13px;
+    background-color: rgb(196, 154, 221);
+    transition: 0.5s;
+}
+
+
+/*
+table {
+    padding: 20px;
+    border-collapse: collapse;
+    height: 100%;
+    width: 100%;
+}*/
+/*
+td {
+    border: 3px solid #36393E;
+    text-align: center;
+}*/
+
+/* CSS Retex*/
+/*.photo {
+    height: 50vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.jeu{
+    height: 50vh;
+    width: auto;
+}*/
+
+
+/*@media screen and (max-width:1400px) {
+    .button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .button>button {
+        width: 250px;
+        position: relative;
+        left: 0px;
+    }
+    .toto {
+        display: flex;
+        flex-direction: column;
+    }
+    .inner-row {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    aside {
+        border:solid;
+        
+        border-color: #36393E;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .recherche {
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+    .change1{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+    .change2{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+    .change3{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+    .chronologie{
+        transform: rotate(90deg);
+        position: relative;
+        top: 200px;
+    }
+}*/
