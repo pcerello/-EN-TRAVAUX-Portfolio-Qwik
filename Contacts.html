@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacts</title>
+    <style>
+        form input:not([type=submit]):invalid {
+            border-right: 4px solid rgb(240, 84, 84);
+
+        }
+
+        form input:not([type=submit]):valid {
+            border-right: 4px solid rgb(101, 177, 99);
+        }
+
+        form label {
+            display: inline;
+            color:  #28292c;
+        }
+
+        form label::after {
+            content: " * ";
+            display: inline;
+            color:  #28292c;
+        }
+        .p input{
+            margin-left: 10%;
+        }
+        
+        form input {
+            border-radius: 5px;
+            width: 140%;
+            height: 33px;
+            
+        }
+
+        form input[type=submit] {
+            background-color: rgb(54, 54, 54);
+            width: 100px;
+            height: 30px;
+            color: rgb(189, 204, 204);
+            border-radius: 5px;
+            border-color: black;
+        }
+
+        form .colonnes {
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+        }
+
+        form message textarea {
+            display:block;
+            width: 80%;
+            border-radius: 5px;
+            border-color: black;
+        }
+
+        form message p {
+            margin-left: 250px;
+        }
+       
+        
+        form message {
+            display: flex;
+            flex-direction: column;
+            flex: 12;
+        }
+       
+        
+        ::placeholder {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+        }
+        .annotation{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tete">
+        <header>
+            <div class="nom">
+                <h1>Pauline CERELLO</h1>
+            </div>
+            <div class="barre">
+                <ul class="menu">
+                    <li>
+                        <a href="accueil.html">ACCUEIL</a>
+                    </li>
+                    <li>
+                        <a href="experiences.html">EXPÉRIENCES</a>
+                    </li>
+                    <li>
+                        <a href="musiques.html">COMPÉTENCES</a>
+                    </li>
+                    <li>
+                        <a href="Contacts.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="vide">
+
+            </div> 
+        </header>
+        <div class="cadre">
+            <form action="https://google.fr">
+                <!--URL où on envoie les infos du formulaire-->
+                <div class="colonnes">
+                    <info>
+                        <p class="req"><label for="nom"> Nom : </label><input name="name" type="text" required
+                                placeholder="Bennet"></p>
+                        <p class="req"><label for="prénom"> Prénom : </label><input name="name" type="text" required
+                                placeholder="Michelle"></p>
+                        <p class="req"><label for="tel"> Téléphone : </label><input name="phone" type="number" required
+                                placeholder="0123456789"></p>
+                        <p class="req"><label for="email"> Email : </label><input type="email" name="email" required
+                                placeholder="pauline.cerello@gmail.com"></p>
+                    </info>
+
+                    <message>
+                        <!--<p><label for = "texte">Message : </label><input type="text" name ="message" placeholder="Entrez votre message."></p>-->
+                        <p><label for="texte">Message : </label>
+                            <textarea name="message" rows="4" cols="50" placeholder="Entrez votre message."
+                                required></textarea>
+                        </p>
+                    </message>
+                </div>
+
+                <div class="p"><input type="submit" value="Envoyer"></div>
+            </form>
+            <div class="annotation"><p>* Champs obligatoires</p></div>
+        </div>
+        <footer>
+            <a href="Contacts.html">Contactez-moi</a>
+            <p>© PCERELLO 2022</p>
+        </footer>
+</body>
+
+</html>
