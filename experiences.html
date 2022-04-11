@@ -7,103 +7,98 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        
-
-        .container ul {
-            list-style: none;
-
-            top: 50%;
-            left: 50%;
-
-            padding: 10px 500px;
-
-            font-size: 13px;
-        }
-
-        .container ul {
-            content: '';
-            width: 10px;
-            height: 100%;
-
-
-        }
-
-        .container ul li {
-            
+        ol {
             position: relative;
-            margin-left: 30px;
-
-            
-            
-            width: 250px;
-            
+            display: block;
+            margin: 100px;
+            height: 4px;
+            background: #552ba3;
         }
 
-        .container ul li:not(:first-child) {
-            margin-top: 30px;
-        }
-
-        .container ul li>span {
-            width: 2px;
-            height: 100%;
-            background: #fff;
-            left: -30px;
-            top: 0;
+        ol::before,
+        ol::after {
+            content: "";
             position: absolute;
+            top: -8px;
+            display: block;
+            width: 0;
+            height: 0;
+            border-radius: 10px;
+            border: 10px solid #552ba3;
         }
 
-        .container ul li>span:before,
-        .container ul li>span:after {
-            content: '';
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            border: 2px solid #fff;
-            position: absolute;
-            background: #8763da;
+        ol::before {
             left: -5px;
-            top: 0;
         }
 
-        .container ul li span:after {
-            top: 100%;
+        ol::after {
+            right: -10px;
+            border: 10px solid transparent;
+            border-right: 0;
+            border-left: 20px solid #552ba3;
+            border-radius: 3px;
         }
 
-        .container ul li>div {
-            margin-left: 10px;
+        /* ---- Timeline elements ---- */
+        li {
+            position: relative;
+            display: inline-block;
+            float: left;
+            width: 150px;
+            font: bold 14px arial;
+            height: 50px;
         }
 
-        .container div .title,
-        .container div .type {
-            font-weight: 600;
-            font-size: 12px;
-        }
-
-        .container div .info {
-            font-weight: 300;
-        }
-
-        .container div>div {
-            margin-top: 5px;
-        }
-
-        .container span.number {
-            height: 100%;
-        }
-
-        .container span.number span {
+        li .diplome {
             position: absolute;
-            font-size: 10px;
-            left: -35px;
-            font-weight: bold;
+            top: -57px;
+            left: 25%;
+            color: #000000;
         }
 
-        .container span.number span:first-child {
-            top: 0;
+        li .point {
+            content: "";
+            top: -4px;
+            left: 43%;
+            display: block;
+            width: 6px;
+            height: 6px;
+            border: 4px solid #552ba3;
+            border-radius: 10px;
+            background: #fff;
+            position: absolute;
         }
 
-        .container span.number span:last-child {
-            top: 100%;
+        li .description {
+            display: none;
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin-top: 20px;
+            position: relative;
+            font-weight: normal;
+            z-index: 1;
+        }
+
+        .description::before {
+            content: '';
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px solid #f4f4f4;
+            position: absolute;
+            top: -5px;
+            left: 43%;
+        }
+
+        /* ---- Hover effects ---- */
+        li:hover {
+            cursor: pointer;
+            color: #272727;
+        }
+
+        li:hover .description {
+            display: block;
         }
     </style>
 
@@ -140,128 +135,73 @@
             <div class="centre">
                 <div class="inner-col">
                     <article>
-                        <div class="container">
-                            <ul>
-                                <li>
-                                    <span></span>
-                                    <div>
-                                        <button class="une" onclick="location.href='Projet_Pong.html'" type="button">Danses <br/> Pendant 11 ans</button>
-                                    </div>
-                                    <span class="number">
-                                        <span>12:00</span>
-                                    </span>
-                                </li>
-                                <li>
-                                    <div>
-                                        <span></span>
-                                        <button class="deux" onclick="location.href='presentation.html'" type="button">Club Math.en.Jeans <br/> 2016 - 2017</button>
-                                    </div>
-                                    <span class="number">
-                                        <span>14:00</span>
-                                    </span>
-                                </li>
-                                <li>
-                                    <div>
-                                        <span></span>
-                                        <button class="trois" onclick="location.href='Projet_Pong.html'" type="button">Jeu Pong <br/>Octobre 2021</button>
-                                    </div>
-                                    <span class="number">
-                                        <span>15:00</span>
-                                        
-                                    </span>
-                                </li>
-                                <li>
-                                    <div>
-                                        <span></span>
-                                        <button class="quatre" onclick="location.href='PESTEL.html'" type="button">SAE n°4</button>
-                                    </div>
-                                    <span class="number">
-                                        <span>16:00</span>
-                                        
-                                    </span>
-                                </li>
-                                <li>
-                                    <div>
-                                        <span></span>
-                                        <button class="cinq" onclick="location.href='PESTEL.html'" type="button">SAE n°5</button>
-                                    </div>
-                                    <span class="number">
-                                        <span>16:00</span>
-                                        
-                                    </span>
-                                </li>
-                                <li>
-                                    <div>
-                                        <span></span>
-                                        <button class="six" onclick="location.href='PESTEL.html'" type="button">SAE n°6</button>
-                                    </div>
-                                    <span class="number">
-                                        <span>16:00</span>
-                                        
-                                    </span>
-                                </li>
-                                <li>
-                                    <div>
-                                        <span></span>
-                                        <button class="sept" onclick="location.href='PESTEL.html'" type="button">SAE n°7</button>
-                                    </div>
-                                    <span class="number">
-                                        <span>16:00</span>
-                                        
-                                    </span>
-                                </li>
-                                <li>
-                                    <div>
-                                        <span></span>
-                                        <button class="huit" onclick="location.href='PESTEL.html'" type="button">SAE n°8</button>
-                                    </div>
-                                    <span class="number">
-                                        <span>16:00</span>
-                                        
-                                    </span>
-                                </li>
-                                <li>
-                                    <div>
-                                        <span></span>
-                                        <button class="neuf" onclick="location.href='PESTEL.html'" type="button">SAE n°9</button>
-                                    </div>
-                                    <span class="number">
-                                        <span>16:00</span>
-                                        
-                                    </span>
-                                </li>
-                                <li>
-                                    <div>
-                                        <span></span>
-                                        <button class="dix" onclick="location.href='PESTEL.html'" type="button">SAE n°10</button>
-                                    </div>
-                                    <span class="number">
-                                        <span>16:00</span>
-                                        
-                                    </span>
-                                </li>
-                                <li>
-                                    <div>
-                                        <span></span>
-                                        <button class="onze" onclick="location.href='PESTEL.html'" type="button">SAE n°11</button>
-                                    </div>
-                                    <span class="number">
-                                        <span>16:00</span>
-                                        
-                                    </span>
-                                </li>
-                                <li>
-                                    <div>
-                                        <span></span>
-                                        <button class="douze" onclick="location.href='PESTEL.html'" type="button">SAE n°12</button>
-                                    </div>
-                                    <span class="number">
-                                        <span>16:00</span>
-                                        
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
+                        <ol>
+                            <li>
+                                <p class="diplome">Danses</br>2002 - 2013 </p>
+                                <span class="point"></span>
+                                <p class="description">Danse classique, Moderne Jazz, etc.</p>
+                            </li>
+                            <li>
+                                <p class="diplome">Math.en.Jeans</br>2016 - 2017</p>
+                                <span class="point"></span>
+                                <p class="description">Club de Maths</p>
+                            </li>
+                            <li>
+                                <a href="Projet_Pong.html">
+                                <p class="diplome">Jeu Pong</br>Octobre 2021</p>
+                                <span class="point"></span></a>
+                                <p class="description">
+                                    Jeu de ping pong codé en Processing
+                                </p>
+                            </li>
+                            <li>
+                                <p class="diplome">Création entreprise</br>Novembre 2021</p>
+                                <span class="point"></span>
+                                <p class="description">Découverte de l'environnement économique</p>
+                            </li>
+                            <li>
+                                <p class="diplome">Installation de Poste</br>Décembre 2021</p>
+                                <span class="point"></span>
+                                <p class="description">Installation d'un poste pour le développement</p>
+                            </li>
+                            <li>
+                                <p class="diplome">Création site Web</br>Janvier 2021</p>
+                                <span class="point"></span>
+                                <p class="description">Créer le site en suivant un recueil de besoins</p>
+                            </li>
+                            <li>
+                                <p class="diplome">Jeu Lowatem</br> Janvier 2021</p>
+                                <span class="point"></span>
+                                <p class="description">Codage des règles du jeu et création IA</p>
+                            </li>
+                     
+                            <li>
+                                <p class="diplome">Création base de données</br> Janvier 2021</p>
+                                <span class="point"></span>
+                                <p class="description">Base de données pour le site d'une entreprise</p>
+                            </li>
+                            <li>
+                                <p class="diplome">SAE n°1 S2</p>
+                                <span class="point"></span>
+                                <p class="description">A venir</p>
+                            </li>
+                            <li>
+                                <p class="diplome">SAE n°2 S2</p>
+                                <span class="point"></span>
+                                <p class="description">A venir</p>
+                            </li>
+                            <li>
+                                <p class="diplome">SAE n°3 S2</p>
+                                <span class="point"></span>
+                                <p class="description">A venir</p>
+                            </li>
+                            <li>
+                                <p class="diplome">SAE n°4 S2</p>
+                                <span class="point"></span>
+                                <p class="description">A venir</p>
+                            </li>
+                        </ol>
+
                     </article>
                 </div>
             </div>
@@ -269,7 +209,7 @@
         <footer>
 
             <a href="Contacts.html">Contactez-moi</a>
-            <p>© PCERELLO 2022</p>
+            <p>© - PCERELLO 2022 Tous droits réservés</p>
         </footer>
 
     </div>
