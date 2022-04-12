@@ -87,10 +87,24 @@
             border-radius: 16px;
             position: relative;
             font-weight: normal;
+            left: -27px;
+            z-index: 1;
+        }
+        li .description2 {
+            display: none;
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin-top: 20px;
+            width: 150px;
+            border-radius: 16px;
+            position: relative;
+            font-weight: normal;
+            left: -27px;
+            top: -70px;
             z-index: 1;
         }
 
-        .description::before {
+        .description::before, .description2::before {
             content: '';
             width: 0;
             height: 0;
@@ -115,7 +129,7 @@
             color: #272727;
         }
 
-        li:hover .description {
+        li:hover .description, li:hover .description2 {
             display: block;
         }
     </style>
@@ -161,7 +175,7 @@
                         <li>
                             <p class="diplome2">Math.en.Jeans</br>2016 - 2017</p>
                             <span class="point"></span>
-                            <p class="description">A venir</p>
+                            <p class="description2">A venir</p>
                         </li>
                         <li>
                             <a href="Projet_Pong.html">
@@ -177,7 +191,7 @@
                                 <p class="diplome2">Création entreprise</br>Novembre 2021</p>
                                 <span class="point"></span>
                             </a>
-                            <p class="description">
+                            <p class="description2">
                                 Découverte de l'environnement économique
                             </p>
                         </li>
@@ -195,7 +209,7 @@
                                 <p class="diplome2">Création site Web</br>Janvier 2021</p>
                                 <span class="point"></span>
                             </a>
-                            <p class="description">
+                            <p class="description2">
                                 Créer le site en suivant un recueil de besoins
                             </p>
                         </li>
@@ -213,7 +227,7 @@
                                 <p class="diplome2">Création base de données</br> Janvier 2021</p>
                                 <span class="point"></span>
                             </a>
-                            <p class="description">
+                            <p class="description2">
                                 Base de données pour le site d'une entreprise
                             </p>
                         </li>
@@ -225,7 +239,7 @@
                         <li>
                             <p class="diplome2">SAE n°2 S2</p>
                             <span class="point"></span>
-                            <p class="description">A venir</p>
+                            <p class="description2">A venir</p>
                         </li>
                         <li>
                             <p class="diplome">SAE n°3 S2</p>
@@ -235,7 +249,7 @@
                         <li>
                             <p class="diplome2">SAE n°4 S2</p>
                             <span class="point"></span>
-                            <p class="description">A venir</p>
+                            <p class="description2">A venir</p>
                         </li>
                     </ol>
                 </div>
