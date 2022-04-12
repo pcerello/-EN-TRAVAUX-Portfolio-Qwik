@@ -1,4 +1,4 @@
-html  {
+html {
     background-color: #28292c;
 }
 
@@ -21,33 +21,35 @@ body {
 }
 
 .menu {
-    display: flex;  
-    padding: 0px;                  
+    display: flex;
+    padding: 0px;
     margin: 5px;
 }
+
 .menu li {
-    list-style-type: none ;
+    list-style-type: none;
 
 }
+
 .menu a {
-    display:block;                
-    min-width:200px;                
-    padding: 10px;            
-    text-align: center;          
-    background-color: #36393E;    
-    color: #fff;                  
-    text-decoration: none;       
-    border: 2px solid #36393E;           
+    display: block;
+    min-width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: #36393E;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #36393E;
 }
 
-.menu a:hover{
+.menu a:hover {
     background-color: #848992;
-    color:#36393E;
+    color: #36393E;
 }
 
 header {
     display: flex;
-    flex : 1;
+    flex: 1;
 }
 
 .nom {
@@ -56,10 +58,12 @@ header {
     display: flex;
     flex: 1;
 }
+
 .barre {
     display: flex;
     flex: 3;
 }
+
 .vide {
     display: flex;
     flex: 1;
@@ -85,6 +89,7 @@ a {
     color: #b0b3d1;
     text-decoration: none;
 }
+
 .centre {
     flex-direction: row;
     display: column;
@@ -92,9 +97,9 @@ a {
 }
 
 
-.cadre{
+.cadre {
     background-color: #c5c5c5;
-    border:solid;
+    border: solid;
     border-color: #36393E;
     border-radius: 10px;
     margin: 5px;
@@ -102,7 +107,7 @@ a {
 }
 
 
-.inner-row1 h2{
+.inner-row1 h2 {
     text-align: center;
 }
 
@@ -114,26 +119,32 @@ a {
 
 
 
-article{
+article {
     display: block;
     flex-direction: row;
     flex: 4;
     background-color: #c5c5c5;
-    border:solid;
+    border: solid;
     border-color: #36393E;
     border-radius: 10px;
     margin: 5px;
     margin-left: 20px;
     line-height: 30px;
+    padding: 5px;
 }
 
 
 .img {
     text-align: center;
-    width: 50em;
+    width: 45em;
 }
 
-
+img {
+    width: 20vw;
+    height: 30vh;
+    max-width: 500px;
+    max-height: 225px;
+}
 
 button {
     display: inline;
@@ -142,7 +153,7 @@ button {
     transition: 0.5s;
     position: relative;
     left: 20px;
-    padding:  10px;
+    padding: 10px;
 }
 
 .button>button {
@@ -173,7 +184,7 @@ button:hover {
 }
 
 
-.jeu{
+.jeu {
     height: 50vh;
     width: auto;
 }
