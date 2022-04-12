@@ -99,67 +99,41 @@ a {
     border-radius: 10px;
     margin: 5px;
     margin-left: 20px;
-    /*line-height: 30px;*/
 }
-/*
-input[type=search]{
-    background-color:aliceblue;
-    border-radius:8px;
-    margin-right: 5px;
-}*/
 
 
-/*
+.inner-row1 h2{
+    text-align: center;
+}
+
 .inner-row1 {
     flex-direction: row;
     display: flex;
     flex: 3;
 }
-.inner-row2 {
-    flex-direction: row;
-    display: flex;
-    flex: 1;
-}*/
 
-/*
-article {
+
+
+article{
     display: block;
     flex-direction: row;
     flex: 4;
-    background-color: #eeeeee;
-    background-image: url("chien_bronzette.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: overlay;
+    background-color: #c5c5c5;
     border:solid;
     border-color: #36393E;
     border-radius: 10px;
     margin: 5px;
     margin-left: 20px;
     line-height: 30px;
-}*/
-/*
-.Description article{
-    line-height: 25px;
-}*/
+}
 
 
-/*
-img {
-    width: 1275px;
-   margin :5px;
-}*/
-/*
-aside div {
-    display: inline-block;
-}*/
-/*
-.toto {
-    display: flex;
-    flex-direction: row;
-    flex: 5;
-    align-items: center;
-}*/
+.img {
+    text-align: center;
+    width: 50em;
+}
+
+
 
 button {
     display: inline;
@@ -188,21 +162,10 @@ button:hover {
 }
 
 
-/*
-table {
-    padding: 20px;
-    border-collapse: collapse;
-    height: 100%;
-    width: 100%;
-}*/
-/*
-td {
-    border: 3px solid #36393E;
-    text-align: center;
-}*/
+
 
 /* CSS Retex*/
-/*.photo {
+.photo {
     height: 50vh;
     width: auto;
     display: flex;
@@ -213,7 +176,7 @@ td {
 .jeu{
     height: 50vh;
     width: auto;
-}*/
+}
 
 
 /*@media screen and (max-width:1400px) {
