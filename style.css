@@ -162,14 +162,6 @@ button {
     padding: 10px;
 }
 
-.button>button {
-    font-weight: bolder;
-    font-family: Century Gothic, sans-serif;
-    font-size: 13px;
-    width: 200px;
-    height: 50px;
-    justify-content: space-around;
-}
 
 button:hover {
     font-weight: bolder;
