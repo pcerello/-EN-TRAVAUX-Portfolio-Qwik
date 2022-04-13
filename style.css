@@ -134,18 +134,22 @@ article {
 }
 
 
-.img {
+.jeu {
     text-align: center;
     width: 45em;
 }
 
-img {
-    width: 20vw;
-    height: 30vh;
-    max-width: 500px;
-    max-height: 225px;
+.jeu img {
+    max-height: 230px;
 }
 
+.entreprise{
+    text-align: center;
+    width: 45em;
+}
+.entreprise img{
+    max-height: 300px;
+}
 button {
     display: inline;
     background-color: rgb(241, 241, 241);
@@ -183,11 +187,6 @@ button:hover {
     justify-content: center;
 }
 
-
-.jeu {
-    height: 50vh;
-    width: auto;
-}
 
 
 /*@media screen and (max-width:1400px) {
