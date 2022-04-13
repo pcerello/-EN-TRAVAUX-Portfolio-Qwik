@@ -84,7 +84,9 @@ h1 {
     text-shadow: 1px 1px 2px #444444, 0 0 1em #555555, 0 0 0.2em #aaaaaa;
 }
 
-
+p a{
+    color: #ad32ff;
+}
 a {
     color: #b0b3d1;
     text-decoration: none;
