@@ -7,7 +7,8 @@ body {
     flex-direction: row;
     display: flex;
     color: black;
-    min-height: 100vh;
+    min-height: 95vh;
+    width: 100%;
 }
 
 
@@ -209,7 +210,7 @@ button:hover {
 
 
 
-/*@media screen and (max-width:1400px) {
+@media screen and (max-width:320px) {
     .button {
         display: flex;
         flex-direction: column;
@@ -222,47 +223,10 @@ button:hover {
         position: relative;
         left: 0px;
     }
-    .toto {
-        display: flex;
-        flex-direction: column;
-    }
-    .inner-row {
-        display: flex;
-        flex-direction: column;
-    }
    
-    aside {
-        border:solid;
-        
-        border-color: #36393E;
-    }
     footer {
         display: flex;
         flex-direction: column;
     }
-    .recherche {
-        display: inline-block;
-        margin-bottom: 10px;
-        margin-right: 0px;
-    }
-    .change1{
-        display: flex;
-        flex-direction: row;
-        flex: 1;
-    }
-    .change2{
-        display: flex;
-        flex-direction: row;
-        flex: 1;
-    }
-    .change3{
-        display: flex;
-        flex-direction: row;
-        flex: 1;
-    }
-    .chronologie{
-        transform: rotate(90deg);
-        position: relative;
-        top: 200px;
-    }
-}*/
+
+}
