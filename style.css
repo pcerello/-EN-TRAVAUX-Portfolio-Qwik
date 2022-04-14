@@ -92,6 +92,9 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+.lienA{
+    color: #ad32ff;
+}
 
 .centre {
     flex-direction: row;
