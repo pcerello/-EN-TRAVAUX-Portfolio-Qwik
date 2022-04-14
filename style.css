@@ -151,6 +151,14 @@ article {
 .jeu img {
     max-height: 310px;
 }
+.donnee {
+    text-align: center;
+    width: 60em;
+}
+
+.donnee img {
+    max-height: 300px;
+}
 
 .entreprise{
     text-align: center;
@@ -192,10 +200,6 @@ button:hover {
     transition: 0.5s;
 }
 
-
-
-
-/* CSS Retex*/
 .photo {
     height: 50vh;
     width: auto;
