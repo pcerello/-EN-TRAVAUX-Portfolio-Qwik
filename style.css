@@ -158,7 +158,13 @@ article {
 .entreprise img{
     max-height: 449px;
 }
-
+.keptPet{
+    text-align: center;
+    width: 67em;
+}
+.keptPet img{
+    max-height: 394px;
+}
 .poste{
     text-align: center;
     width: 57em;
