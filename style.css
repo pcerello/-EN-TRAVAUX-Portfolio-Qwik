@@ -120,7 +120,9 @@ a {
     flex: 3;
 }
 
-
+p{
+    padding-left: 15px;
+}
 
 article {
     display: block;
@@ -159,7 +161,7 @@ article {
     width: 57em;
 }
 .poste img{
-    max-height: 449px;
+    max-height: 349px;
 }
 
 button {
