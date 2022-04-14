@@ -56,7 +56,7 @@ header {
 
 .nom {
     margin-left: 50px;
-    width: 10px;
+    width: 1000px;
     display: flex;
     flex: 1;
 }
@@ -86,14 +86,16 @@ h1 {
     text-shadow: 1px 1px 2px #444444, 0 0 1em #555555, 0 0 0.2em #aaaaaa;
 }
 
-p a{
+p a {
     color: #ad32ff;
 }
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
-.lienA{
+
+.lienA {
     color: #ad32ff;
 }
 
@@ -125,7 +127,7 @@ a {
     flex: 3;
 }
 
-p{
+p {
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -153,6 +155,7 @@ article {
 .jeu img {
     max-height: 310px;
 }
+
 .donnee {
     text-align: center;
     width: 67em;
@@ -162,25 +165,30 @@ article {
     max-height: 333px;
 }
 
-.entreprise{
+.entreprise {
     text-align: center;
     width: 67em;
 }
-.entreprise img{
+
+.entreprise img {
     max-height: 449px;
 }
-.keptPet{
+
+.keptPet {
     text-align: center;
     width: 67em;
 }
-.keptPet img{
+
+.keptPet img {
     max-height: 394px;
 }
-.poste{
+
+.poste {
     text-align: center;
     width: 57em;
 }
-.poste img{
+
+.poste img {
     max-height: 449px;
 }
 
@@ -197,7 +205,7 @@ button {
 }
 
 button:hover {
-    
+
     background-color: rgb(196, 154, 221);
     transition: 0.5s;
 }
@@ -212,22 +220,23 @@ button:hover {
 
 
 @media screen and (max-width:820px) {
-    header{
+    header {
         display: flex;
         flex-direction: column-reverse;
-        
+
     }
-    .menu{
+
+    .menu {
         display: inline-block;
         flex: 1;
         align-items: center;
     }
-    
-   .cadre{
-       height: 100%;
-       width: 75vh;
-   } 
-   
+
+    .cadre {
+        height: 100%;
+        width: 75vh;
+    }
+
     footer {
         display: flex;
         flex-direction: column;
