@@ -111,8 +111,7 @@ a {
     border-radius: 10px;
     margin: 5px;
     margin-left: 20px;
-    height: 100%;
-    width: 50%;
+    width: 100%;
 }
 
 
@@ -223,13 +222,11 @@ button:hover {
         flex: 1;
         align-items: center;
     }
-    .nom {
-        margin-left: 10px;
-        width: 1000px;
-        display: flex;
-        flex: 1;
-    }
     
+   .cadre{
+       height: 100%;
+       width: 100vh;
+   } 
    
     footer {
         display: flex;
