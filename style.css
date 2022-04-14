@@ -154,7 +154,13 @@ article {
     max-height: 449px;
 }
 
-
+.poste{
+    text-align: center;
+    width: 57em;
+}
+.poste img{
+    max-height: 449px;
+}
 
 button {
     display: inline-block;
