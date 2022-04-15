@@ -257,7 +257,7 @@ button:hover {
         flex-direction: column;
     }
     .jeu {
-        text-align: left;
+        text-align: center;
         display: flex;
         flex-direction: column;
     }
@@ -267,7 +267,7 @@ button:hover {
     }
     
     .donnee {
-        text-align: left;
+        text-align: center;
         display: flex;
         flex-direction: column;
     }
@@ -277,33 +277,33 @@ button:hover {
     }
     
     .entreprise {
-        text-align: left;
+        text-align: center;
         display: flex;
         flex-direction: column;
     }
     
     .entreprise img {
-        max-height: 299px;
+        max-height: 280px;
     }
     
     .keptPet {
-        text-align: left;
+        text-align: center;
         display: flex;
         flex-direction: column;
     }
     
     .keptPet img {
-        max-height: 234px;
+        max-height: 225px;
     }
     
     .poste {
-        text-align: left;
+        text-align: center;
         display: flex;
         flex-direction: column;
     }
     
     .poste img {
-        max-height: 289px;
+        max-height: 275px;
     }
 
 }
