@@ -220,7 +220,7 @@ button:hover {
 
 
 
-@media screen and (max-width:820px) {
+@media screen and (max-width:1340px) {
     header {
         display: flex;
         flex-direction: column-reverse;
@@ -254,7 +254,7 @@ button:hover {
     }
     
     .jeu img {
-        max-height: 260px;
+        max-height: 175px;
     }
     
     .donnee {
