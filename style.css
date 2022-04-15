@@ -326,5 +326,8 @@ button:hover {
     .poste img {
         max-height: 255px;
     }
+    .linkedin{
+        margin-bottom: 10px;
+    }
 
 }
