@@ -305,7 +305,7 @@ button:hover {
         text-align: left;
         display: flex;
         flex-direction: column;
-        width: 47em;
+        width: 20em;
     }
     
     .poste img {
