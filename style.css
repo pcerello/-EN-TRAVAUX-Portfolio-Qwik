@@ -74,7 +74,10 @@ header {
     display: flex;
     flex: 1;
 }
-
+.linkedin{
+    color: black;
+    
+}
 footer {
     display: flex;
     flex-direction: row;
