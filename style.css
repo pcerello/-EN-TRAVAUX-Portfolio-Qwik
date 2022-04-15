@@ -226,6 +226,9 @@ button:hover {
         flex-direction: column-reverse;
 
     }
+    .inner-row1{
+        flex-direction: column;
+    }
     body{
         display: inline;
         font-size: 14px;
@@ -243,7 +246,9 @@ button:hover {
         height: 100%;
         width: 48vh;
     }
-
+    ul{
+        padding-left: 15px;
+    }
     article{
         line-height: 20px;
     }
@@ -253,16 +258,16 @@ button:hover {
     }
     .jeu {
         text-align: center;
-        width: 13em;
+        
     }
     
     .jeu img {
-        max-height: 175px;
+        max-height: 305px;
     }
     
     .donnee {
         text-align: center;
-        width: 20em;
+        
     }
     
     .donnee img {
@@ -271,7 +276,7 @@ button:hover {
     
     .entreprise {
         text-align: center;
-        width: 20em;
+        
     }
     
     .entreprise img {
@@ -280,7 +285,7 @@ button:hover {
     
     .keptPet {
         text-align: center;
-        width: 20em;
+        
     }
     
     .keptPet img {
@@ -289,7 +294,7 @@ button:hover {
     
     .poste {
         text-align: center;
-        width: 20em;
+        
     }
     
     .poste img {
