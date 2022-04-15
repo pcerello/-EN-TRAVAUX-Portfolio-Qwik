@@ -1,9 +1,9 @@
 html {
-    background-color: #28292c;
+    background-color: #1c454e;
 }
 
 body {
-    font-family: Century Gothic, sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     flex-direction: row;
     
     color: black;
@@ -16,10 +16,11 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: #5a5f67;
+    background-color: #f5f5f54a;
     border: solid;
+    border-width: 0px;
     border-radius: 5px;
-    border-color: #36393E;
+    border-color: #ffffff;
     height: 95%;
 }
 
@@ -38,11 +39,13 @@ body {
     display: block;
     min-width: 200px;
     padding: 10px;
+    margin: 3px;
     text-align: center;
     background-color: #36393E;
     color: #fff;
     text-decoration: none;
     border: 2px solid #36393E;
+    border-radius: 32px;
 }
 
 .menu a:hover {
@@ -82,13 +85,13 @@ footer {
 
 
 h1 {
-    color: #c9b0d1;
+    color: #ffffff;
     font-size: 25px;
     text-shadow: 1px 1px 2px #444444, 0 0 1em #555555, 0 0 0.2em #aaaaaa;
 }
 
 p a {
-    color: #ad32ff;
+    color: #00b0d8;
 }
 
 a {
@@ -97,7 +100,7 @@ a {
 }
 
 .lienA {
-    color: #ad32ff;
+    color: #00b0d8;
 }
 
 .centre {
@@ -194,7 +197,7 @@ article {
 
 button {
     display: inline-block;
-    background-color: rgb(97, 69, 128);
+    background-color: #1c454e;
     border-radius: 15px;
     transition: 0.5s;
     color: #fff;
@@ -206,7 +209,7 @@ button {
 
 button:hover {
 
-    background-color: rgb(196, 154, 221);
+    background-color: #00819e;
     transition: 0.5s;
 }
 
@@ -264,7 +267,7 @@ button:hover {
         flex-direction: column;
     }
     .jeu {
-        text-align: left;
+        text-align: right;
         display: flex;
         flex-direction: column;
         width: 20em;
