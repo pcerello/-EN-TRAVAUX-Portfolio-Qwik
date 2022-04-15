@@ -20,7 +20,7 @@ body {
     border: solid;
     border-radius: 5px;
     border-color: #36393E;
-    
+    height: 95%;
 }
 
 .menu {
@@ -230,7 +230,9 @@ button:hover {
         display: inline;
         font-size: 14px;
     }
-    
+    .tete{
+        height: 100%;
+    }
     .menu {
         display: inline-block;
         flex: 1;
@@ -248,7 +250,7 @@ button:hover {
     }
     .jeu {
         text-align: center;
-        width: 30em;
+        width: 20em;
     }
     
     .jeu img {
@@ -257,7 +259,7 @@ button:hover {
     
     .donnee {
         text-align: center;
-        width: 30em;
+        width: 20em;
     }
     
     .donnee img {
@@ -266,7 +268,7 @@ button:hover {
     
     .entreprise {
         text-align: center;
-        width: 30em;
+        width: 20em;
     }
     
     .entreprise img {
@@ -275,7 +277,7 @@ button:hover {
     
     .keptPet {
         text-align: center;
-        width: 30em;
+        width: 20em;
     }
     
     .keptPet img {
@@ -284,7 +286,7 @@ button:hover {
     
     .poste {
         text-align: center;
-        width: 30em;
+        width: 20em;
     }
     
     .poste img {
