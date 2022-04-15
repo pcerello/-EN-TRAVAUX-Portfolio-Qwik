@@ -237,7 +237,9 @@ button:hover {
         overflow-x: hidden;
         font-size: 14px;
     }
-    
+    .nom {
+        margin-left: 33%;
+    }
     .tete{
         height: 100%;
     }
