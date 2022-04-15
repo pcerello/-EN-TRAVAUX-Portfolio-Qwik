@@ -258,7 +258,8 @@ button:hover {
     }
     .jeu {
         text-align: left;
-        
+        display: flex;
+        flex-direction: column;
     }
     
     .jeu img {
@@ -267,7 +268,8 @@ button:hover {
     
     .donnee {
         text-align: left;
-        
+        display: flex;
+        flex-direction: column;
     }
     
     .donnee img {
@@ -276,7 +278,8 @@ button:hover {
     
     .entreprise {
         text-align: left;
-        
+        display: flex;
+        flex-direction: column;
     }
     
     .entreprise img {
@@ -285,7 +288,8 @@ button:hover {
     
     .keptPet {
         text-align: left;
-        
+        display: flex;
+        flex-direction: column;
     }
     
     .keptPet img {
@@ -294,7 +298,8 @@ button:hover {
     
     .poste {
         text-align: left;
-        
+        display: flex;
+        flex-direction: column;
     }
     
     .poste img {
