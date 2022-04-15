@@ -57,7 +57,7 @@ header {
 
 .nom {
     margin-left: 50px;
-    width: 1000px;
+    width: 200px;
     display: flex;
     flex: 1;
 }
@@ -305,6 +305,7 @@ button:hover {
         text-align: left;
         display: flex;
         flex-direction: column;
+        width: 47em;
     }
     
     .poste img {
