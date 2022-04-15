@@ -19,23 +19,24 @@
 
         form label {
             display: inline;
-            color:  #28292c;
+            color: #28292c;
         }
 
         form label::after {
             content: " * ";
             display: inline;
-            color:  #28292c;
+            color: #28292c;
         }
-        .p input{
+
+        .p input {
             margin-left: 10%;
         }
-        
+
         form input {
             border-radius: 5px;
             width: 140%;
             height: 33px;
-            
+
         }
 
         form input[type=submit] {
@@ -45,7 +46,7 @@
             color: rgb(189, 204, 204);
             border-radius: 5px;
             border-color: black;
-            cursor:not-allowed;
+            cursor: not-allowed;
         }
 
         form .colonnes {
@@ -55,7 +56,7 @@
         }
 
         form message textarea {
-            display:block;
+            display: block;
             width: 80%;
             border-radius: 5px;
             border-color: black;
@@ -64,29 +65,34 @@
         form message p {
             margin-left: 250px;
         }
-       
-        
+
+
         form message {
-            display: flex;
             flex-direction: column;
-            flex: 12;
+           
         }
-       
-        
+
+
         ::placeholder {
             font-family: 'Courier New', Courier, monospace;
             font-size: medium;
         }
-        .annotation{
+
+        .annotation {
             margin-left: 20px;
         }
-        @media screen and (max-width:820px) {
-            
-            
-            form message p {
-            margin-left: 0px;
 
-        }
+        @media screen and (max-width:820px) {
+
+            from input {
+                width: 125%;
+            }
+
+            form message p {
+                margin-left: 50px;
+
+            }
+            
         }
     </style>
 </head>
@@ -115,7 +121,7 @@
             </div>
             <div class="vide">
 
-            </div> 
+            </div>
         </header>
         <div class="cadre">
             <form action="https://google.fr">
@@ -143,7 +149,9 @@
 
                 <div class="p"><input type="submit" value="Envoyer"></div>
             </form>
-            <div class="annotation"><p>* Champs obligatoires</p></div>
+            <div class="annotation">
+                <p>* Champs obligatoires</p>
+            </div>
         </div>
         <footer>
             <a href="Contacts.html">Contactez-moi</a>
