@@ -231,6 +231,7 @@ button:hover {
     }
     body{
         display: inline;
+        overflow-x: hidden;
         font-size: 14px;
     }
     .tete{
