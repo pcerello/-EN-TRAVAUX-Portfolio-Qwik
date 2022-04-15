@@ -244,6 +244,9 @@ button:hover {
         width: 48vh;
     }
 
+    article{
+        line-height: 20px;
+    }
     footer {
         display: flex;
         flex-direction: column;
