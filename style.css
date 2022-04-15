@@ -5,7 +5,7 @@ html {
 body {
     font-family: Century Gothic, sans-serif;
     flex-direction: row;
-    display: flex;
+    
     color: black;
     min-height: 95vh;
     width: 99%;
@@ -20,6 +20,7 @@ body {
     border: solid;
     border-radius: 5px;
     border-color: #36393E;
+    
 }
 
 .menu {
