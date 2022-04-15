@@ -116,6 +116,7 @@ a {
     border-color: #36393E;
     border-radius: 10px;
     margin: 5px;
+    border-width: 0px;
     margin-left: 20px;
     width: 97%;
 }
@@ -143,6 +144,7 @@ article {
     background-color: #c5c5c5;
     border: solid;
     border-color: #36393E;
+    border-width: 0px;
     border-radius: 10px;
     margin: 5px;
     line-height: 30px;
