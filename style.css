@@ -263,7 +263,7 @@ button:hover {
     }
     
     .jeu img {
-        max-height: 218px;
+        max-height: 228px;
     }
     
     .donnee {
@@ -273,7 +273,7 @@ button:hover {
     }
     
     .donnee img {
-        max-height: 213px;
+        max-height: 187px;
     }
     
     .entreprise {
@@ -293,7 +293,7 @@ button:hover {
     }
     
     .keptPet img {
-        max-height: 225px;
+        max-height: 210px;
     }
     
     .poste {
@@ -303,7 +303,7 @@ button:hover {
     }
     
     .poste img {
-        max-height: 275px;
+        max-height: 255px;
     }
 
 }
