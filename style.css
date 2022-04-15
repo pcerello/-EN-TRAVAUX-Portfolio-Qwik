@@ -237,6 +237,7 @@ button:hover {
         overflow-x: hidden;
         font-size: 14px;
     }
+    
     .tete{
         height: 100%;
     }
@@ -264,6 +265,7 @@ button:hover {
         text-align: left;
         display: flex;
         flex-direction: column;
+        width: 20em;
     }
     
     .jeu img {
@@ -274,6 +276,7 @@ button:hover {
         text-align: left;
         display: flex;
         flex-direction: column;
+        width: 20em;
     }
     
     .donnee img {
@@ -284,6 +287,7 @@ button:hover {
         text-align: left;
         display: flex;
         flex-direction: column;
+        width: 20em;
     }
     
     .entreprise img {
@@ -294,6 +298,7 @@ button:hover {
         text-align: left;
         display: flex;
         flex-direction: column;
+        width: 20em;
     }
     
     .keptPet img {
