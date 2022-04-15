@@ -225,7 +225,11 @@ button:hover {
         flex-direction: column-reverse;
 
     }
-
+    body{
+        display: inline;
+        font-size: 14px;
+    }
+    
     .menu {
         display: inline-block;
         flex: 1;
@@ -234,12 +238,56 @@ button:hover {
 
     .cadre {
         height: 100%;
-        width: 75vh;
+        width: 63vh;
     }
 
     footer {
         display: flex;
         flex-direction: column;
+    }
+    .jeu {
+        text-align: center;
+        width: 30em;
+    }
+    
+    .jeu img {
+        max-height: 260px;
+    }
+    
+    .donnee {
+        text-align: center;
+        width: 30em;
+    }
+    
+    .donnee img {
+        max-height: 213px;
+    }
+    
+    .entreprise {
+        text-align: center;
+        width: 30em;
+    }
+    
+    .entreprise img {
+        max-height: 299px;
+    }
+    
+    .keptPet {
+        text-align: center;
+        width: 30em;
+    }
+    
+    .keptPet img {
+        max-height: 234px;
+    }
+    
+    .poste {
+        text-align: center;
+        width: 30em;
+    }
+    
+    .poste img {
+        max-height: 289px;
     }
 
 }
