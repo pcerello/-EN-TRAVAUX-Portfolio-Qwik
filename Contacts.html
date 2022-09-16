@@ -125,7 +125,7 @@
             </div>
         </header>
         <div class="cadre">
-            <form action="https://google.fr">
+            <form method="post">
                 <!--URL où on envoie les infos du formulaire-->
                 <div class="colonnes">
                     <info>
@@ -150,6 +150,15 @@
 
                 <div class="p"><input type="submit" value="Envoyer"></div>
             </form>
+            <?php
+            if (isset($_POST['message'])) {
+            $retour = mail('pauline.cerello@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: webmaster@monsite.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
+            if($retour)
+                echo '<p>Votre message a bien été envoyé.</p>';
+            }
+            ?>
+</body>
+</html>
             <div class="annotation">
                 <p>* Champs obligatoires</p>
             </div>
