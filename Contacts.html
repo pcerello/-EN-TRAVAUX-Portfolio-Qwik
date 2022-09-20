@@ -125,30 +125,32 @@
             </div>
         </header>
         <div class="cadre">
-            <form method="post">
+            <form id="contact" method="post" action="formulaire_php.php">
                 <!--URL où on envoie les infos du formulaire-->
                 <div class="colonnes">
                     <info>
-                        <p class="req"><label for="nom"> Nom : </label><input name="name" type="text" required
+                        <p class="req"><label for="nom"> Nom : </label><input name="name" type="text" id="nom" required
                                 placeholder="Bennet"></p>
-                        <p class="req"><label for="prénom"> Prénom : </label><input name="name" type="text" required
-                                placeholder="Michelle"></p>
-                        <p class="req"><label for="tel"> Téléphone : </label><input name="phone" type="number" required
-                                placeholder="0123456789"></p>
-                        <p class="req"><label for="email"> Email : </label><input type="email" name="email" required
+                        
+                        <!--<p class="req"><label for="tel"> Téléphone : </label><input name="phone" type="number" required
+                                placeholder="0123456789"></p>-->
+                        <p class="req"><label for="email"> Email : </label><input type="email" name="email" id="email" required
                                 placeholder="pauline.cerello@gmail.com"></p>
+
+                        <p class="req"><label for="objet"> Prénom : </label><input name="objet" type="text" id="objet" required
+                                placeholder="Michelle"></p>
                     </info>
 
                     <message>
                         <!--<p><label for = "texte">Message : </label><input type="text" name ="message" placeholder="Entrez votre message."></p>-->
-                        <p><label for="texte">Message : </label>
-                            <textarea name="message" rows="4" cols="50" placeholder="Entrez votre message."
+                        <p><label for="message">Message : </label>
+                            <textarea name="message" id="message" rows="4" cols="50" placeholder="Entrez votre message."
                                 required></textarea>
                         </p>
                     </message>
                 </div>
 
-                <div class="p"><input type="submit" value="Envoyer"></div>
+                <div class="p"><input type="submit" name="envoi" value="Envoyer"></div>
             </form>
             <!--<?php
             if (isset($_POST['message'])) {
