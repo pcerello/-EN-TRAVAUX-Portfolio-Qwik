@@ -11,6 +11,10 @@ body {
     width: 99%;
 }
 
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
 
 .tete {
     display: flex;
