@@ -187,6 +187,15 @@ article {
     max-height: 449px;
 }
 
+.danse {
+    text-align: center;
+    width: 67em;
+}
+
+.danse img {
+    max-height: 449px;
+}
+
 .keptPet {
     text-align: center;
     width: 67em;
@@ -307,6 +316,17 @@ button:hover {
     
     .entreprise img {
         max-height: 280px;
+    }
+
+    .danse {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        width: 20em;
+    }
+    
+    .danse img {
+        max-height: 270px;
     }
     
     .keptPet {
