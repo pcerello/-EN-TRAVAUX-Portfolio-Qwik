@@ -117,7 +117,9 @@ a {
     flex: 2;
 }
 
-
+.logo{
+    text-align: center;
+}
 .cadre {
     background-color: #c5c5c5;
     border: solid;
