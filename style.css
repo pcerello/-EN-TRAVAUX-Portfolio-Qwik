@@ -148,7 +148,7 @@ p {
 }
 
 article {
-    display: block;
+    display: flex;
     flex-direction: row;
     flex: 4;
     background-color: #c5c5c5;
@@ -161,10 +161,23 @@ article {
     padding: 5px;
 }
 
+area {
+    display: flex;
+    flex-direction: row;
+    flex: 8;
+    background-color: #c5c5c5;
+    border: solid;
+    border-color: #36393E;
+    border-width: 0px;
+    border-radius: 10px;
+    margin: 5px;
+    line-height: 30px;
+    padding: 5px;
+}
 
 .jeu {
     text-align: center;
-    width: 60em;
+    width: 100%;
 }
 
 .jeu img {
@@ -173,7 +186,7 @@ article {
 
 .donnee {
     text-align: center;
-    width: 67em;
+    width: 100%;
 }
 
 .donnee img {
@@ -182,7 +195,7 @@ article {
 
 .entreprise {
     text-align: center;
-    width: 67em;
+    width: 100%;
 }
 
 .entreprise img {
@@ -191,7 +204,7 @@ article {
 
 .danse {
     text-align: center;
-    width: 67em;
+    width: 100%;
 }
 
 .danse img {
@@ -200,7 +213,7 @@ article {
 
 .keptPet {
     text-align: center;
-    width: 67em;
+    width: 100%;
 }
 
 .keptPet img {
@@ -209,7 +222,7 @@ article {
 
 .poste {
     text-align: center;
-    width: 57em;
+    width: 100%;
 }
 
 .poste img {
