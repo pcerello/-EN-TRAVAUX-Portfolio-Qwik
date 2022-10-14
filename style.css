@@ -296,6 +296,7 @@ button:hover {
     
     .jeu img {
         width: 100%;
+        max-height: none;
     }
     
     .donnee {
@@ -307,6 +308,7 @@ button:hover {
     
     .donnee img {
         width: 100%;
+        max-height: none;
     }
     
     .entreprise {
@@ -318,6 +320,7 @@ button:hover {
     
     .entreprise img {
         width: 100%;
+        max-height: none;
     }
 
     .danse {
@@ -329,6 +332,7 @@ button:hover {
     
     .danse img {
         width: 100%;
+        max-height: none;
     }
     
     .keptPet {
@@ -340,6 +344,7 @@ button:hover {
     
     .keptPet img {
         width: 100%;
+        max-height: none;
     }
     
     .poste {
@@ -351,6 +356,7 @@ button:hover {
     
     .poste img {
         width: 100%;
+        max-height: none;
     }
     .linkedin{
         margin-bottom: 10px;
