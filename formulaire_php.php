@@ -1,4 +1,10 @@
 <?php
+use PHPMailer-master\PHPMailer-master\PHPMailer;
+use PHPMailer-master\PHPMailer-master\Exception;
+
+require 'path/to/PHPMailer-master/src/Exception.php';
+require 'path/to/PHPMailer-master/src/PHPMailer.php';
+require 'path/to/PHPMailer-master/src/SMTP.php';
 /*
 	********************************************************************************************
 	CONFIGURATION
