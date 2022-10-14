@@ -147,7 +147,7 @@ p {
     padding-right: 15px;
 }
 
-article {
+.tt {
     display: flex;
     flex-direction: column;
     flex: 4;
@@ -161,10 +161,10 @@ article {
     padding: 5px;
 }
 
-area {
+.dd {
     display: flex;
-    flex-direction: row;
-    flex: 8;
+    flex-direction: column;
+    flex: 10;
     background-color: #c5c5c5;
     border: solid;
     border-color: #36393E;
