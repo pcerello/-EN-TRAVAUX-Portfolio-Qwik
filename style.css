@@ -181,7 +181,7 @@ p {
 }
 
 .jeu img {
-    max-height: 310px;
+    width: 100%;
     
 }
 
@@ -191,7 +191,7 @@ p {
 }
 
 .donnee img {
-    max-height: 315px;
+    width: 100%;
 }
 
 .entreprise {
@@ -200,7 +200,7 @@ p {
 }
 
 .entreprise img {
-    max-height: 449px;
+    width: 49%;
 }
 
 .danse {
@@ -209,7 +209,7 @@ p {
 }
 
 .danse img {
-    max-height: 449px;
+    width: 100%;
 }
 
 .keptPet {
@@ -218,7 +218,7 @@ p {
 }
 
 .keptPet img {
-    max-height: 394px;
+    width: 100%;
 }
 
 .poste {
@@ -227,7 +227,7 @@ p {
 }
 
 .poste img {
-    max-height: 449px;
+    width: 100%;
 }
 
 button {
