@@ -149,7 +149,7 @@ p {
 
 article {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: 4;
     background-color: #c5c5c5;
     border: solid;
