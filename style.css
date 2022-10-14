@@ -291,66 +291,67 @@ button:hover {
         text-align: right;
         display: flex;
         flex-direction: column;
-        width: 20em;
+        width: 100%;
     }
     
     .jeu img {
-        max-height: 228px;
+        width: 100%;
     }
     
     .donnee {
         text-align: left;
         display: flex;
         flex-direction: column;
-        width: 20em;
+        width:100%;
     }
     
     .donnee img {
-        max-height: 187px;
+        width: 100%;
     }
     
     .entreprise {
         text-align: left;
         display: flex;
         flex-direction: column;
-        width: 20em;
+        width: 100%;
     }
     
     .entreprise img {
-        max-height: 280px;
+        width: 100%;
     }
 
     .danse {
         text-align: left;
         display: flex;
         flex-direction: column;
-        width: 20em;
+        width: 100%;
     }
     
     .danse img {
-        max-height: 240px;
+        width: 100%;
     }
     
     .keptPet {
         text-align: left;
         display: flex;
         flex-direction: column;
-        width: 20em;
+        width: 100%;
     }
     
     .keptPet img {
-        max-height: 210px;
+        width: 100%;
+        height: 100%;
     }
     
     .poste {
         text-align: left;
         display: flex;
         flex-direction: column;
-        width: 20em;
+        width: 100%;
     }
     
     .poste img {
-        max-height: 255px;
+        width: 100%;
     }
     .linkedin{
         margin-bottom: 10px;
