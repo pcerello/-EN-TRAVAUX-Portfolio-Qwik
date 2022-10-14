@@ -161,6 +161,19 @@ article {
     padding: 5px;
 }
 
+article2 {
+    display: block;
+    flex-direction: row;
+    flex: 6;
+    background-color: #c5c5c5;
+    border: solid;
+    border-color: #36393E;
+    border-width: 0px;
+    border-radius: 10px;
+    margin: 5px;
+    line-height: 30px;
+    padding: 5px;
+}
 
 .jeu {
     text-align: center;
