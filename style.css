@@ -65,12 +65,14 @@ header {
 
 
 .nom {
-    margin-left: 30px;
-    width: 217px;
+    margin-top: 20px;
     display: flex;
     flex: 1;
 }
-
+.nom h1{
+    text-align: center;
+    width: 100%;
+}
 .barre {
     display: flex;
     flex: 3;
@@ -278,6 +280,7 @@ button:hover {
     }
     .nom {
         margin-left: 0;
+        margin-top: 0;
         width: 100%;
     }
     .nom h1{
