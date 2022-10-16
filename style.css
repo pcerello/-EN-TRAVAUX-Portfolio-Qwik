@@ -221,7 +221,7 @@ p {
 }
 
 .keptPet img {
-    width: 90%;
+    height: 34vw;
 }
 
 .poste {
@@ -381,6 +381,7 @@ button:hover {
     
     .keptPet img {
         width: 100%;
+        height: auto;
         max-height: none;
     }
     
