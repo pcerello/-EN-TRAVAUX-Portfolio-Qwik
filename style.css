@@ -1,5 +1,5 @@
 html {
-    background-color: #1c454e;
+    background-color: #221241;
 }
 
 body {
@@ -102,7 +102,7 @@ h1 {
 }
 
 p a {
-    color: #00b0d8;
+    color: #7618e9;
 }
 
 a {
@@ -111,7 +111,7 @@ a {
 }
 
 .lienA {
-    color: #00b0d8;
+    color: #7700d8;
 }
 
 .centre {
@@ -235,7 +235,7 @@ p {
 
 button {
     display: inline-block;
-    background-color: #1c454e;
+    background-color: #331c4e;
     border-radius: 15px;
     transition: 0.5s;
     color: #fff;
@@ -247,7 +247,7 @@ button {
 
 button:hover {
 
-    background-color: #00819e;
+    background-color: #52009e;
     transition: 0.5s;
 }
 
