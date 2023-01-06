@@ -22,6 +22,7 @@
             background: #1c454e;
         }
 
+        
         p {
             padding-left: 0px;
         }
@@ -53,7 +54,7 @@
         }
 
         /* ---- Timeline elements ---- */
-        .inner-col li {
+        .inner-col li, .inner-col2 li {
             position: relative;
             display: inline-block;
             float: left;
@@ -167,11 +168,13 @@
             ol {
                 padding-left: 1px;
                 margin: 97px;
-                height: 120vh;
+                height: 87vh;
                 width: 4px;
                 left: 13vh;
             }
-
+            .inner-col2 ol {
+                height: 30vh;
+            }
 
             li .point {
                 left: -5px;
@@ -188,13 +191,14 @@
                 transform: rotate(90deg);
             }
 
-            .inner-col li {
+            .inner-col li, .inner-col2 li{
                 height: 70px;
                 width: 100%;
             }
 
             li .diplome {
                 top: 30px;
+                width: 126px;
                 text-align: left;
                 left: 15px;
             }
@@ -210,6 +214,7 @@
 
             li .diplome2 {
                 text-align: right;
+                width: 135px;
                 top: 30px;
                 left: -150px;
             }
@@ -248,7 +253,7 @@
         <div class="cadre">
             <h3>Projets réalisés au lycée et en Licence de Maths : </h3>
             <div class="centre">
-                <div class="inner-col">
+                <div class="inner-col2">
                     <ol>
                         <li>
                             <a href="profMaths.html">
