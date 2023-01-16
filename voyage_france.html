@@ -9,62 +9,9 @@
     <link rel="icon" href="iconeSite.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        .slider {
-        width: 100%;
-        margin: 30px auto;
-        position: relative;
-        }
-        .slider-viewport {
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-        }
-        .slider-content {
-        display: grid;
-        grid-auto-flow: column;
-        -webkit-transition: 1s all;
-        transition: 1s all;
-        }
-        .slider-content img {
-        width: 100%;
-        height: auto;
-        }
-        .slider-nav {
-        position: absolute;
-        width: 100%;
-        bottom: -30px;
-        margin-top: 10px;
-        text-align: center;
-        }
-        .slider-nav a {
-        -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
-                box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
-        display: inline-block;
-        background-color: #adafbc;
-        width: 15px;
-        height: 15px;
-        margin: 0 3px;
-        }
-        .slider-nav a:hover {
-        background-color: #fff;
-        -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
-                box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
-        }
-        #img2:target .slider-content {
-        -webkit-transform: translateX(-800px);
-                transform: translateX(-800px);
-        }
-        #img3:target .slider-content {
-        -webkit-transform: translateX(-1600px);
-                transform: translateX(-1600px);
-        }
-        #img4:target .slider-content {
-        -webkit-transform: translateX(-2400px);
-                transform: translateX(-2400px);
-        }
-        #img5:target .slider-content {
-        -webkit-transform: translateX(-3200px);
-                transform: translateX(-3200px);
+        img {
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
@@ -110,34 +57,13 @@
         <div class="inner-row1">
 
             <div class="dd">
-                <div class="slider">
-                    <div class="slider-viewport">
-                    <div id="img1">
-                        <div id="img2">
-                        <div id="img3">
-                            <div id="img4">
-                            <div id="img5">
-                                <div class="slider-content">
-                                    <img src="France/02032008.jpg">
-                                    <img src="France/1438689429420.jpg">
-                                    <img src="France/20120809_151622 - Copie.jpg">
-                                    <img src="France/20140715_195341.jpg">
-                                    <img src="France/20170717_233414.jpg">
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="slider-nav">
-                    <a href="#img1"></a>
-                    <a href="#img2"></a>
-                    <a href="#img3"></a>
-                    <a href="#img4"></a>
-                    <a href="#img5"></a>
-                    </div>
-                </div>
+
+                                    <marquee><img src="France/02032008.jpg">  &nbsp
+                                    <img src="France/1438689429420.jpg"> &nbsp
+                                    <img src="France/20120809_151622 - Copie.jpg">  &nbsp
+                                    <img src="France/20140715_195341.jpg">  &nbsp
+                                    <img src="France/20170717_233414.jpg"></marquee>
+
             </div>
         </div>
         

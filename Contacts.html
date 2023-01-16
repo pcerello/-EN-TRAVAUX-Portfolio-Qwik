@@ -131,15 +131,12 @@
             </div>
         </header>
         <div class="cadre">
-            <form id="contact" method="post" action="formulaire_php.php">
-                <!--URL où on envoie les infos du formulaire-->
+            <form id="contact" method="post" action="mail.php">
                 <div class="colonnes">
                     <info>
                         <p class="req"><label for="nom"> Nom : </label><input name="name" type="text" id="nom" required
                                 placeholder="Bennet"></p>
                         
-                        <!--<p class="req"><label for="tel"> Téléphone : </label><input name="phone" type="number" required
-                                placeholder="0123456789"></p>-->
                         <p class="req"><label for="email"> Email : </label><input type="email" name="email" id="email" required
                                 placeholder="pauline.cerello@gmail.com"></p>
 
@@ -148,27 +145,14 @@
                     </info>
 
                     <message>
-                        <!--<p><label for = "texte">Message : </label><input type="text" name ="message" placeholder="Entrez votre message."></p>-->
                         <p><label for="message">Message : </label>
                             <textarea name="message" id="message" rows="4" cols="50" placeholder="Entrez votre message."
                                 required></textarea>
                         </p>
                     </message>
                 </div>
-
                 <div class="p"><input type="submit" name="envoi" value="Envoyer"></div>
             </form>
-            <!--<?php
-            if (isset($_POST['message'])) {
-            $retour = mail('pauline.cerello@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: webmaster@monsite.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
-            if($retour)
-                echo '<p>Votre message a bien été envoyé.</p>';
-            }
-            ?>-->
-            <div class="error">
-                <h2>Veuillez-nous excuser pour ce désagrément, ce formulaire est actuellement indisponible.</h2>
-                <h3>Vous pouvez nous contacter directement par mail à l'adresse suivante :</h3>
-                <h3 style="color:cornflowerblue"><u>pauline.cerello@gmail.com</u></h3>
             </div>
             
 </body>
