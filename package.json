@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "description": "Mon e-portfolio.",
+  "homepage": "https://pcerello.github.io/src/routes/",
   "version": "0.0.1",
   "author": {
     "name": "Pauline Cerello",
